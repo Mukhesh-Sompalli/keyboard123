@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bord {
+            border: 2px solid;
+            height: 410px;
+            width: 80vw;
+            border-radius: 10px;
+            box-shadow: 2px 4px green;
+        }
+
+        .keyboard {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .mukesh {
+            display: flex;
+            border: 2px solid;
+            width: 10vw;
+            height: 45px;
+            margin-top: 10px;
+            margin-left: 10px;
+            border-radius: 7px;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 2px 2px blue;
+        }
+
+        .keyboard1 {
+            display: flex;
+        }
+
+        .kumar {
+            display: flex;
+            border: 2px solid;
+            width: 60px;
+            height: 45px;
+            margin: 10px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 2px 2px blue;
+            flex-grow: backspace;
+        }
+
+        .backspace {
+
+            flex-basis: 150px;
+        }
+
+        .keyboard2 {
+            display: flex;
+        }
+
+        .kumar1 {
+            display: flex;
+            border: 2px solid;
+            width: 60px;
+            height: 45px;
+            margin: 10px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 2px 2px blue;
+        }
+
+        .tab {
+            flex-basis: 100px;
+        }
+
+        .keyboard3 {
+            display: flex;
+        }
+        .kumar2 {
+            display: flex;
+            border: 2px solid;
+            width: 60px;
+            height: 45px;
+            margin: 10px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 2px 2px blue;
+        }
+        .tab {
+            flex-grow: tab;
+        }
+
+        .capslock {
+            flex-basis: 150px;
+        }
+
+        .keyboard4 {
+            display: flex;
+        }
+
+        .kumar3 {
+            display: flex;
+            border: 2px solid;
+            width: 60px;
+            height: 45px;
+            margin: 10px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 2px 2px blue;
+        }
+
+        .shift {
+            flex-basis: 180px;
+        }
+
+        .shift1 {
+            flex-basis: 250px;
+        }
+
+        .keyboard5 {
+            display: flex;
+        }
+
+        .kumar4 {
+            display: flex;
+            border: 2px solid;
+            width: 60px;
+            height: 45px;
+            margin: 10px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 2px 2px blue;
+        }
+
+        .space {
+            flex-basis: 400px;
+        }
+
+        div:hover~.mukesh {
+            background-color: aquamarine;
+        }
+
+        div:hover~.kumar {
+            background-color: blueviolet;
+        }
+
+        div:hover~.kumar1 {
+            background-color: cadetblue;
+        }
+
+        div:hover~.kumar2 {
+            background-color: mediumvioletred;
+        }
+
+        div:hover~.kumar3 {
+            background-color: darkorchid;
+        }
+        div:hover~.kumar4 {
+            background-color: darkolivegreen;
+        }
+
+        @media screen and (max-width:600px){
+            .bord {
+                width: 200vw;
+                display: flex;
+                 flex-wrap: wrap;
+                 text-align: center;
+                 font-size: 10px;
+            }
+            .keyboard{
+                width: 197vw;     
+            }
+            .keyboard1{
+                width: 200vw;
+            }
+            .keyboard2{
+                width: 200vw;
+            }
+            .keyboard3{
+                width: 200vw;
+            }
+            .keyboard4{
+                width: 200vw;
+            }
+            .keyboard5{
+                width: 200vw;
+            }
+        }
+        /* @media screen and (min-width:601max) {
+            .bord {
+                width: 100px;
+                display: flex;
+                 flex-wrap: wrap;
+                 text-align: center;
+                 font-size: 10px;
+            }
+           
+            .keyboard1{
+                width: 30vw;
+            }
+            .keyboard2{
+                width: 200vw;
+            }
+            .keyboard3{
+                width: 200vw;
+            }
+            .keyboard4{
+                width: 200vw;
+            }
+            .keyboard5{
+                width: 200vw;
+            }
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="bord">
+        <div class="keyboard">
+            <div class="mukesh">esc</div>
+            <div class="mukesh">f1</div>
+            <div class="mukesh">f2</div>
+            <div class="mukesh">f3</div>
+            <div class="mukesh">f4</div>
+            <div class="mukesh">f5</div>
+            <div class="mukesh">f6</div>
+            <div class="mukesh">f7</div>
+            <div class="mukesh">f8</div>
+            <div class="mukesh">f9</div>
+            <div class="mukesh">f10</div>
+            <div class="mukesh">f11</div>
+            <div class="mukesh">f12</div>
+            <div class="mukesh">insert</div>
+            <div class="mukesh">prt sc</div>
+            <div class="mukesh">delete</div>
+        </div>
+        <div class="keyboard1">
+            <div class="kumar">`</div>
+            <div class="kumar">1</div>
+            <div class="kumar">2</div>
+            <div class="kumar">3</div>
+            <div class="kumar">4</div>
+            <div class="kumar">5</div>
+            <div class="kumar">6</div>
+            <div class="kumar">7</div>
+            <div class="kumar">8</div>
+            <div class="kumar">9</div>
+            <div class="kumar">0</div>
+            <div class="kumar">-</div>
+            <div class="kumar">=</div>
+            <div class="kumar backspace">backspace</div>
+            <div class="kumar">home</div>
+        </div>
+        <div class="keyboard2">
+            <div class="kumar1 tab">Tab</div>
+            <div class="kumar1">Q</div>
+            <div class="kumar1">W</div>
+            <div class="kumar1">E</div>
+            <div class="kumar1">R</div>
+            <div class="kumar1">T</div>
+            <div class="kumar1">Y</div>
+            <div class="kumar1">U</div>
+            <div class="kumar1">I</div>
+            <div class="kumar1">O</div>
+            <div class="kumar1">P</div>
+            <div class="kumar1">[</div>
+            <div class="kumar1">]</div>
+            <div class="kumar1">\</div>
+            <div class="kumar1">pg up</div>
+        </div>
+        <div class="keyboard3">
+            <div class="kumar2 capslock">caps lock</div>
+            <div class="kumar2">A</div>
+            <div class="kumar2">S</div>
+            <div class="kumar2">D</div>
+            <div class="kumar2">j</div>
+            <div class="kumar2">F</div>
+            <div class="kumar2">G</div>
+            <div class="kumar2">H</div>
+            <div class="kumar2">J</div>
+            <div class="kumar2">K</div>
+            <div class="kumar2">L</div>
+            <div class="kumar2">;</div>
+            <div class="kumar2">'</div>
+            <div class="kumar2">enter</div>
+            <div class="kumar2">pg dn</div>
+        </div>
+        <div class="keyboard4">
+            <div class="kumar3 shift">shift</div>
+            <div class="kumar3">Z</div>
+            <div class="kumar3">X</div>
+            <div class="kumar3">C</div>
+            <div class="kumar3">V</div>
+            <div class="kumar3">B</div>
+            <div class="kumar3">N</div>
+            <div class="kumar3">M</div>
+            <div class="kumar3">,</div>
+            <div class="kumar3"></div>
+            <div class="kumar3">/</div>
+            <div class="kumar3 shift1">Shift</div>
+            <div class="kumar3"></div>
+            <div class="kumar3"></div>
+            <div class="kumar3">end</div>
+        </div>
+        <div class="keyboard5">
+            <div class="kumar4">ctrl</div>
+            <div class="kumar4">fn</div>
+            <div class="kumar4">windows</div>
+            <div class="kumar4">alt</div>
+            <div class="kumar4 space"></div>
+            <div class="kumar4">alt</div>
+            <div class="kumar4">ctrl</div>
+            <div class="kumar4">lside</div>
+            <div class="kumar4">up</div>
+            <div class="kumar4">down</div>
+            <div class="kumar4">rside</div>
+        </div>
+</body>
+</html>
